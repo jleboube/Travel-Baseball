@@ -228,7 +228,7 @@ export default function TermsOfServicePage() {
             If you have questions about these Terms, please contact us:
           </p>
           <p className="text-gray-700">
-            <strong>Email:</strong> legal@coachhub.app<br />
+            <strong>Email:</strong> support@travel-baseball.app<br />
             <strong>Website:</strong> https://coach.z-q.me
           </p>
         </section>

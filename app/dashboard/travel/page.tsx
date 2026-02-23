@@ -9,7 +9,7 @@ import { UpcomingEventsList } from "@/components/travel/upcoming-events-list"
 import { MapPin } from "lucide-react"
 
 export const metadata = {
-  title: "Travel & Tournaments | CoachHub",
+  title: "Travel & Tournaments | Travel Baseball",
   description: "Manage tournament travel, carpools, and expenses",
 }
 

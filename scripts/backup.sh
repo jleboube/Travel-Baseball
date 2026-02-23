@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# CoachHub Baseball - Backup Script
+# Travel Baseball - Backup Script
 # This script backs up the PostgreSQL database and uploads directory
 
 set -e
@@ -8,8 +8,8 @@ set -e
 # Configuration
 BACKUP_DIR="./backups"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-DB_CONTAINER="coachhub-db"
-DB_NAME="coachhub"
+DB_CONTAINER="travel-baseball-db"
+DB_NAME="travel_baseball"
 DB_USER="coach"
 
 # Colors for output
@@ -18,7 +18,7 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${GREEN}CoachHub Baseball - Backup Script${NC}"
+echo -e "${GREEN}Travel Baseball - Backup Script${NC}"
 echo "Starting backup at $(date)"
 echo ""
 

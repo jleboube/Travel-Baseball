@@ -1,6 +1,6 @@
 {
-  "name": "CoachHub Baseball",
-  "short_name": "CoachHub",
+  "name": "Travel Baseball",
+  "short_name": "Travel BB",
   "description": "Complete travel baseball team management platform for coaches, players, and parents",
   "start_url": "/",
   "scope": "/",

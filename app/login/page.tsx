@@ -58,7 +58,7 @@ export default function LoginPage() {
               <span className="text-3xl">⚾</span>
             </div>
           </div>
-          <CardTitle className="text-2xl font-bold">CoachHub Baseball</CardTitle>
+          <CardTitle className="text-2xl font-bold">Travel Baseball</CardTitle>
           <CardDescription>
             Sign in to manage your team
           </CardDescription>
@@ -98,7 +98,7 @@ export default function LoginPage() {
             </Button>
           </form>
           <div className="mt-4 text-center text-sm text-muted-foreground">
-            <p>Default admin: admin@coachhub.com / admin123</p>
+            <p>Contact your team admin for login credentials</p>
           </div>
         </CardContent>
       </Card>

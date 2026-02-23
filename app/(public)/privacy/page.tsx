@@ -183,7 +183,7 @@ export default function PrivacyPolicyPage() {
             If you have questions about this Privacy Policy or our data practices, please contact us:
           </p>
           <p className="text-gray-700">
-            <strong>Email:</strong> privacy@coachhub.app<br />
+            <strong>Email:</strong> support@travel-baseball.app<br />
             <strong>Website:</strong> https://coach.z-q.me
           </p>
         </section>

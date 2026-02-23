@@ -25,7 +25,7 @@ import {
 import Link from "next/link"
 
 export const metadata = {
-  title: "Tournament Details | CoachHub",
+  title: "Tournament Details | Travel Baseball",
   description: "View and manage tournament details",
 }
 

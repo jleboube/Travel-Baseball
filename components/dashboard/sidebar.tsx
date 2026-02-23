@@ -48,7 +48,7 @@ export function Sidebar({ userRole }: { userRole?: string }) {
                   <span className="text-2xl">⚾</span>
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-gray-900">CoachHub</h1>
+                  <h1 className="text-xl font-bold text-gray-900">Travel</h1>
                   <p className="text-xs text-gray-500">Baseball</p>
                 </div>
               </div>

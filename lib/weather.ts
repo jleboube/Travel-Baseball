@@ -1,4 +1,4 @@
-// Weather API integration for CoachHub Baseball
+// Weather API integration for Travel Baseball
 // Uses OpenWeatherMap API for 72-hour forecasts
 
 export interface WeatherData {

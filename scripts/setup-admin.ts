@@ -1,7 +1,7 @@
 #!/usr/bin/env tsx
 
 /**
- * CoachHub Baseball - Admin Setup Script
+ * Travel Baseball - Admin Setup Script
  * Creates initial admin user and team configuration
  */
 
@@ -11,11 +11,11 @@ import bcrypt from 'bcryptjs'
 const prisma = new PrismaClient()
 
 async function main() {
-  console.log('CoachHub Baseball - Admin Setup')
+  console.log('Travel Baseball - Admin Setup')
   console.log('=================================\n')
 
   // Get environment variables or use defaults
-  const adminEmail = process.env.ADMIN_EMAIL || 'admin@coachhub.com'
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@travel-baseball.app'
   const adminPassword = process.env.ADMIN_PASSWORD || 'admin123'
   const teamName = process.env.TEAM_NAME || 'My Baseball Team'
 
@@ -80,7 +80,7 @@ async function main() {
     // Sample announcement
     const announcement = await prisma.announcement.create({
       data: {
-        title: 'Welcome to CoachHub Baseball!',
+        title: 'Welcome to Travel Baseball!',
         content: 'This is your team management platform. Explore the features and start managing your team efficiently.',
         priority: 'NORMAL',
         authorId: admin.id,

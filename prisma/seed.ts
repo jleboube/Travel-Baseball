@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs'
 const prisma = new PrismaClient()
 
 async function main() {
-  const adminEmail = process.env.ADMIN_EMAIL || 'admin@coachhub.com'
+  const adminEmail = process.env.ADMIN_EMAIL || 'admin@travel-baseball.app'
   const adminPassword = process.env.ADMIN_PASSWORD || 'admin123'
   const teamName = process.env.TEAM_NAME || 'Sample Team'
 

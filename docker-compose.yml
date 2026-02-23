@@ -16,6 +16,10 @@ services:
       - WEATHER_API_KEY=${WEATHER_API_KEY}
       - NODE_ENV=${NODE_ENV:-production}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - ADMIN_EMAIL=${ADMIN_EMAIL}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - ADMIN_NAME=${ADMIN_NAME:-Head Coach}
+      - TEAM_NAME=${TEAM_NAME}
     volumes:
       - uploads:/app/uploads
     depends_on:

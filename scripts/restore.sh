@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# CoachHub Baseball - Restore Script
+# Travel Baseball - Restore Script
 # This script restores the PostgreSQL database and uploads directory from backup
 
 set -e
 
 # Configuration
-DB_CONTAINER="coachhub-db"
-DB_NAME="coachhub"
+DB_CONTAINER="travel-baseball-db"
+DB_NAME="travel_baseball"
 DB_USER="coach"
 
 # Colors for output
@@ -30,7 +30,7 @@ BACKUP_DIR="./backups"
 DB_BACKUP="$BACKUP_DIR/db_$TIMESTAMP.sql"
 UPLOAD_BACKUP="$BACKUP_DIR/uploads_$TIMESTAMP.tar.gz"
 
-echo -e "${GREEN}CoachHub Baseball - Restore Script${NC}"
+echo -e "${GREEN}Travel Baseball - Restore Script${NC}"
 echo "Restoring backup from $TIMESTAMP"
 echo ""
 

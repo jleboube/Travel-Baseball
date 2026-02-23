@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "CoachHub",
+    title: "Travel Baseball",
   },
   formatDetection: {
     telephone: false,
