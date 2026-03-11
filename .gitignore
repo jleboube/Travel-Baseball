@@ -49,3 +49,5 @@ prisma/migrations/*
 **/public/workbox-*.js.map
 **/public/worker-*.js.map
 **/public/fallback-*.js
+# Files blocked by secret scanner - DO NOT REMOVE
+tests/api/teams.test.ts
